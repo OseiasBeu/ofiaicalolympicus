@@ -1,0 +1,117 @@
+#cabeca {
+    /* border: 2px solid black; */
+    /* border-bottom: 3px solid #d1c3c3; */
+    /* margin-bottom: 3px; */
+    background-color: #e0e0e0a4;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.caixaCabeca {
+    /* border: 2px solid blue; */
+    border-left: 1px solid #d1c3c3;
+    /* border-: 1px solid #d1c3c3; */
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.flex {
+    border-top: 10px solid #d1c3c3;
+    background-color: #e0e0e0a4;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.menuSeletor {
+    /* border: 2px solid olive; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuSeletor input {
+    border-radius: 5px;
+    /* padding-right: 20px; */
+    width: 65%;
+    height: 50px;
+    /* border-color: teal; */
+}
+
+.menuSeletor select {
+    width: 30%;
+}
+
+#colunas {
+    /* border: 2px solid firebrick; */
+    background-color: #e0e0e0a4;
+}
+
+.tituloColuna {
+    border-left: 1px solid #d1c3c3;
+    /* border: 2px solid blueviolet; */
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.tituloColuna aside {
+    border-left: 1px solid #d1c3c3;
+    border-bottom: 1px solid #d1c3c3;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    /* border: 2px solid orange; */
+    /* height: 100%; */
+    width: 100%;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.amostraDeImagem {
+    width: 90px;
+    height: 90px;
+}
+
+#elemtnedoATEX {
+    width: 400px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+}
+
+#campoAT {
+    box-sizing: border-box;
+    /* display: block;
+    flex-wrap: nowrap; */
+}
+
+#campoEX {
+    width: 50%;
+    box-sizing: border-box;
+    /* flex-wrap: nowrap;
+    display: block; */
+}
