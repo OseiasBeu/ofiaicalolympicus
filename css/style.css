@@ -72,7 +72,7 @@
 
 .tituloColuna {
     border-left: 1px solid #d1c3c3;
-    /* border: 2px solid blueviolet; */
+    border: 2px solid blueviolet;
     height: 100px;
     display: flex;
     flex-wrap: nowrap;
@@ -85,8 +85,8 @@
     display: flex;
     flex-wrap: nowrap;
     box-sizing: border-box;
-    /* border: 2px solid orange; */
-    /* height: 100%; */
+    border: 2px solid orange;
+    height: 100%;
     width: 100%;
     align-items: center;
     /* align-content: center; */
@@ -97,21 +97,13 @@
     height: 90px;
 }
 
-#elemtnedoATEX {
-    width: 400px;
-    display: flex;
-    /* flex-wrap: nowrap; */
+.registroColuna{
+    border:1px solid pink;  
 }
 
-#campoAT {
-    box-sizing: border-box;
-    /* display: block;
-    flex-wrap: nowrap; */
+.registroColuna a{
+   /* height: 100%; */
+   border:1px solid pink;
+
 }
 
-#campoEX {
-    width: 50%;
-    box-sizing: border-box;
-    /* flex-wrap: nowrap;
-    display: block; */
-}
